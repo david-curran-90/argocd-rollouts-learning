@@ -21,6 +21,6 @@ spec:
       - CreateNamespace=true
   ignoreDifferences:
   - group: argoproj.io/v1alpha1
-    kind: Rollouts
+    kind: Rollout
     jsonPointers:
     - /spec/replicas
