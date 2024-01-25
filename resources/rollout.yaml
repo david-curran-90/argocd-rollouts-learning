@@ -24,3 +24,6 @@ spec:
         env:
         - name: BLAH
           value: honk
+        resources:
+          request:
+            cpu: 0.1
