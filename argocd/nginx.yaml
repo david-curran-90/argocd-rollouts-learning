@@ -19,3 +19,8 @@ spec:
       allowEmpty: false
     syncOptions:
       - CreateNamespace=true
+  ignoreDifferences:
+  - group: argoproj.io/v1alpha1
+    kind: Rollouts
+    jsonPointers:
+    - /spec/replicas
