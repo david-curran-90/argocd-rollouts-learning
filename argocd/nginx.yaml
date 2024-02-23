@@ -7,7 +7,7 @@ spec:
   destination: 
     namespace: rollout-test 
     server: https://kubernetes.default.svc 
-  project: cogsre
+  project: myproj
   source:
     path: ./
     repoURL: https://github.com/david-curran-90/argocd-rollouts-learning.git
