@@ -4,3 +4,4 @@ resources:
 - resources/rollout.yaml
 - resources/nginx.yaml
 - argocd/nginx.yaml
+- resources/secondApp.yaml
